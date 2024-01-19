@@ -1,14 +1,11 @@
-# Adam
-Implementation of the Adam Optimizer for a feed-forward NN.
+# Implementation of the Adam Optimizer for a Feed-Forward Neural Network
 
-**Introduction and Data**
-This project was implemented in the context of our Advanced ML class. We thank our teacher A. Stromme for his great and intuitive teaching throughout this semester.
-The code in this repository can be ran with in the notebooks. We use synthetic data and the MSINT dataset that we have imported through *tensorflow*, but this is explained below.
+## Introduction and Data
+This project was implemented in the context of our Advanced Machine Learning class. We extend our gratitude to our teacher, A. Stromme, for his excellent and intuitive teaching throughout this semester. The code in this repository can be run within the provided notebooks. For our analysis, we utilized synthetic data and the MSINT dataset, imported through TensorFlow. Details on the datasets and their usage are in the notebooks.
 
-**Notebooks**
-The *hyperparams* notebook contains what is described in the parts 6. and 4.2 of our report meaning the first results compared the classic optimization and the hyperparameter exploration done with a 5-fold CV.
-The *comparative* notebook contains what is described in part 5. comparing AdaGrad, Adadelta, RMSProp and Adam.
-The *Adam Preliminary Analysis* notebook implements the Preliminary analysis (part 3.) exploring the performances of Adam on synthetically-generated multi-model datasets. 
+## Notebooks
+- *hyperparams*: Contains the analysis described in sections 6 and 4.2 of our report. This includes initial results comparing the classical optimization approach with the Adam optimizer and hyperparameter exploration using 5-fold cross-validation.
+- *comparative*: Aligns with section 5 of our report, providing a comparative study of AdaGrad, Adadelta, RMSProp, and Adam.
+- *preliminary*: Implements the preliminary analysis (part 3) of the report, exploring Adam's performance on synthetically-generated multi-modal datasets.
 
-Thank you.
-
+_This README is part of our project documentation for the Advanced ML class._
